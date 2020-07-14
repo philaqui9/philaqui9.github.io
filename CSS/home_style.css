@@ -1,11 +1,16 @@
 body{
-  background-color: rgba(242,225,160,0.4) !important;
+  background-color: rgba(135,206,176,1) !important;
   height: 100%;
   width: auto;
 }
 
+#navbar{
+  background-color: rgb(50,71,101);
+}
+
 .navbar .navbar-nav .nav-link{
   font-family: "Oswald" !important;
+
 }
 
 #home-deck{
@@ -35,7 +40,7 @@ body{
   font-weight: 400;
 }
 .home-info h1{
-  color: #4688F1;
+  color:  rgb(50,71,101);
   text-align: center;
   font-family: 'Oswald';
   font-weight: 900;

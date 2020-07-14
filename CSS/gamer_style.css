@@ -1,5 +1,5 @@
 body{
-  background-color: rgba(242,225,160,0.4) !important;
+  background-color: rgba(135,206,176,1) !important;
   height: 100%;
   width: auto;
 }
@@ -35,7 +35,7 @@ body{
 #run-btn{
   margin-top: 2%;
   width: 160px;
-  background-color: green !important;
+  background-color: rgb(50,71,101) !important;
 }
 
 #run-text{

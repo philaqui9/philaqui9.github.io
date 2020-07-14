@@ -1,7 +1,11 @@
 body{
-  background-color: rgba(52, 146, 186, 0.6) !important;
+  background-color: rgba(135,206,176,1) !important;
   height: 100%;
   width: auto;
+}
+
+.navbar{
+  background-color: rgb(50,71,101);
 }
 
 .navbar .navbar-nav .nav-link{

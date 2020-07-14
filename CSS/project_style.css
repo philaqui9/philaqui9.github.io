@@ -1,11 +1,16 @@
 body{
-  background-color: rgb(0, 134, 134, 0.7) !important;
+  background-color: rgba(135,206,176,1) !important;
   height: 100%;
   width: auto;
 }
 
+.navbar{
+  background-color: rgb(50,71,101) !important;
+}
+
 .navbar .navbar-nav .nav-link{
   font-family: "Oswald" !important;
+
 }
 
 .carousel-item img{
@@ -26,7 +31,7 @@ body{
 }
 
 #cbtn{
-  background-color: rgb(49, 66, 157) !important;
+  background-color: rgba(50,71,101,1) !important;
   font-family: "Oswald";
   border: none;
   color: white;
@@ -133,13 +138,6 @@ body{
   margin-top: 7%;
 }
 
-#pbtn{
-  display: inline-block;
-  background-color: rgb(49, 66, 157) !important;
-  font-family: "Oswald";
-
-}
-
 #git{
   padding-right: 10px;
 }
@@ -155,7 +153,7 @@ body{
 
 #pbtn{
   display: inline-block;
-  background-color: rgb(49, 66, 157) !important;
+  background-color: rgb(50,71,101) !important;
   font-family: "Oswald";
   margin-right: 5%;
 }

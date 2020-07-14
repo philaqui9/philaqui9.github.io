@@ -1,11 +1,11 @@
 body{
-  background-image: url(../Images/jtron.jpg);
-  background-size: cover;
-  height: 100%
+  background-color: rgba(135,206,176,1) !important;
+  height: 100%;
+  width: auto;
 }
 
 #navbar{
-  background-color: rgb(86,63,88);
+  background-color: rgb(50,71,101);
 }
 
 .navbar .navbar-nav .nav-link{
@@ -53,7 +53,7 @@ body{
 }
 
 #subbtn{
-  background-color: rgb(86,63,88) !important;
+  background-color: rgb(50,71,101) !important;
   font-family: "Oswald";
 }
 
@@ -100,7 +100,7 @@ body{
   }
 
   .contact-icons li a:hover, .contact-icons li a:active{
-    color: rgb(86,63,88);
+    color: rgb(135,206,176);
     text-decoration: none;
   }
 
