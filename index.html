@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../CSS/home_style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../Javascript/home.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;382;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+    <title>Home</title>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark primary-color lighten-4" id=navbar>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"><i class="fa fa-fw fa-home"></i>Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about_page.html"><i class="fa fa-fw fa-user"></i>About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="project_page.html"><i class="fa fa-fw fa-keyboard"></i>Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact_page.html"><i class="fa fa-fw fa-envelope"></i>Contact Me</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a class="nav-link" href = "https://github.com/philaqui9/Resume"><i class="far fa-file-alt fa-2x"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href ="https://www.linkedin.com/in/philip-aquilina/"><i class="fab fa-linkedin fa-2x"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href = "https://github.com/philaqui9"><i class="fab fa-github-square fa-2x"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="home-info">
+      <h1 id="home-name" class="animated bounceInDown">Hello, I'm Philip Aquilina</h1>
+    </div>
+
+    <div class = "container-fluid" id = "home-deck">
+      <div class = "row justify-content-center align-content-center" id = "card-row">
+        <div class = "col-lg-3" id="col2-running">
+
+          <div class="card card-cascade narrower animated bounceInLeft" id="card-running">
+            <div class="view view-cascade overlay" data-toggle="tooltip" data-placement="top" title="More info">
+              <img class="card-img-top" src="../Images/card-running-pic.png" alt="Card image cap">
+              <a href="card_link_runner.html">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <div class="card-body card-body-cascade elegant-color white-text rounded-bottom">
+              <hr class="hr-light">
+              <!--<h5 class="pink-text pb-2 pt-1"><i class="fas fa-running"></i></h5>-->
+              <h4 class="font-weight-bold card-title" id="card-text">Runner</h4>
+              <hr class="hr-light">
+            </div>
+          </div>
+
+        </div>
+
+        <div class = "col-lg-3" id="col-gaming">
+
+          <div class="card card-cascade narrower animated bounceInUp" id="card-gaming">
+            <div class="view view-cascade overlay" data-toggle="tooltip" data-placement="top" title="More info">
+              <img class="card-img-top" src="../Images/card-gaming-pic.jpg" alt="Card image cap">
+              <a href="card_link_gamer.html">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <div class="card-body card-body-cascade elegant-color white-text rounded-bottom">
+              <hr class="hr-light">
+            <!--<h5 class="pink-text pb-2 pt-1"><i class="fas fa-gamepad"></i></h5>-->
+              <h4 class="font-weight-bold card-title" id="card-text">Gamer</h4>
+              <hr class="hr-light">
+            </div>
+
+
+
+          </div>
+        </div>
+
+        <div class = "col-lg-3" id="col-programming">
+
+          <div class="card card-cascade narrower animated bounceInRight" id="card-programming">
+            <div class="view view-cascade overlay" data-toggle="tooltip" data-placement="top" title="View Projects">
+              <img class="card-img-top" src="../Images/card-coding-pic.jpg" alt="Card image cap">
+              <a href="project_page.html">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <div class="card-body card-body-cascade elegant-color white-text rounded-bottom">
+              <hr class="hr-light">
+            <!--<h5 class="pink-text pb-2 pt-1"><i class="fas fa-keyboard"></i></h5>-->
+              <h4 class="font-weight-bold card-title" id="card-text">Programmer</h4>
+              <hr class="hr-light">
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+
+
+
+  </body>
+
+</html>

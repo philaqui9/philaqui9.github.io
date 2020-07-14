@@ -1,0 +1,45 @@
+body{
+  background-color: rgba(52, 146, 186, 0.6) !important;
+  height: 100%;
+  width: auto;
+}
+
+.navbar .navbar-nav .nav-link{
+  font-family: "Oswald" !important;
+}
+
+.portrait-shell {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: blue;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+}
+
+.portrait-pic{
+  width:100%;
+}
+
+.intro{
+  color:white;
+  font-family: "Oswald";
+  text-align: center;
+}
+
+.description{
+  color: white;
+  font-family: "Oswald";
+  font-size: 25px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 25%;
+  margin-right: 25%;
+  }
+
+  #col{
+    background-color: rgb(30,199,89);
+  }
