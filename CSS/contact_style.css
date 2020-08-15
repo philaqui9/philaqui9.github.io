@@ -1,6 +1,9 @@
+html{
+  overflow-x: hidden;
+}
+
 body{
   background-color: rgba(135,206,176,1) !important;
-  overflow-x: hidden;
   height: 100%;
   width: auto;
 }
